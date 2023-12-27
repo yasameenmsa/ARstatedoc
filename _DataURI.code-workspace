@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../_DataURI"
+		},
+		{
+			"path": "../ajax.googleapis.com"
+		},
+		{
+			"path": "../assets.website-files.com"
+		},
+		{
+			"path": "../cdn.jsdelivr.net"
+		},
+		{
+			"path": "../cdnjs.cloudflare.com"
+		},
+		{
+			"path": "../d3e54v103j8qbb.cloudfront.net"
+		},
+		{
+			"path": "../fonts.googleapis.com"
+		},
+		{
+			"path": "../fonts.gstatic.com"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tricks-menu-slider.webflow.io",
+		"liveServer.settings.port": 5501
+	}
+}

@@ -27,7 +27,87 @@
 #sublinkss {
             display: none; 
 }
-</style></head>
+</style>
+<style>
+	body {
+ margin: 0;
+ padding: 0;
+}
+
+.container2 {
+ max-width: 100vw;
+ /* margin: 0 auto;
+ padding: 20px; */
+}
+
+
+
+  .h2 {
+	   /* font-size: 20px; */
+	   margin-top: 20px;
+	   margin-bottom: 10px;
+	 }
+ 
+	 .h3 {
+	   /* font-size: 18px; */
+	   margin-top: 15px;
+	   margin-bottom: 10px;
+	 }
+ 
+	 .p {
+	   /* font-size: 16px; */
+	   line-height: 1.5;
+	   margin-bottom: 15px;
+	 }
+ 
+	 .ol, .ul {
+	   margin-bottom: 15px;
+	   padding-left: 20px;
+	 }
+ 
+	 .li {
+	   /* font-size: 16px; */
+	   line-height: 1.5;
+	 }
+
+	 @media only screen and (max-width: 600px) {
+	   .container2 {
+		 padding: 10px;
+	   }
+ 
+	   .h2 {
+		 font-size: 18px;
+		 margin-top: 15px;
+		 margin-bottom: 8px;
+	   }
+ 
+	   .h3 {
+		 font-size: 16px;
+		 margin-top: 12px;
+		 margin-bottom: 8px;
+	   }
+ 
+	   .p {
+		 font-size: 14px;
+		 margin-bottom: 12px;
+	   }
+ 
+	   .ol, .ul {
+		 margin-bottom: 12px;
+		 padding-left: 15px;
+	   }
+ 
+	   .li {
+		 font-size: 14px;
+		 line-height: 1.4;
+	   }
+	 }
+   </style> 
+
+
+
+
+</head>
 	<!-- <div class="overflow"> -->
 	<!-- <div class="global"><div class="cursor"><div class="cursor__dot1"></div>
 	<div class="cursor__dot2"><p class="cursor__text">DRAG</p></div></div><div id="top" class="html w-embed"> -->
@@ -64,12 +144,12 @@ body {
 }
 	  h1, h2 ,h3  {
 		  color: #643c1c;
-		  padding:10px;
+		  /* padding:10px; */
 	  }
       
 	   strong {
 		  color: #3f220b;
-		  font-weight: 700;
+		  /* font-weight: 700; */
 	  }
 
    
@@ -97,6 +177,7 @@ body {
 	position: relative;
 	width: 100%;
 	padding-top: 56.25%; /* 16:9 aspect ratio */
+	margin-bottom: 2%;
   }
 
   .video-container iframe {
@@ -261,70 +342,70 @@ $( ".trigger" ).click(function() {
 </script>
 
 
+ <h1 class="h1">Search Documentation</h1>
+
+ <h2 class="h2">Search Properties</h2>
+
+ <p class="p">The Search Properties page allows users to easily search and filter real estate listings based on specific criteria. Follow the steps below to effectively use this page:</p>
+
+ <ol class="ol">
+	 <li class="li"><strong class="strong">Accessing the Page</strong></li>
+	 <p class="p">Navigate to the Search Properties page from your application. The page can typically be accessed via a designated route, such as <code class="code">/search</code>.</p>
+
+	 <li class="li"><strong class="strong">Sidebar Filters</strong></li>
+	 <p class="p"><strong class="strong">Search Term:</strong> Enter a search term in the designated field to search for properties based on keywords.</p>
+	 <p class="p"><strong class="strong">Type:</strong> Choose the type of property you are interested in by selecting one of the following options:</p>
+	 <ul class="ul">
+		 <li class="li">All</li>
+		 <li class="li">Sale</li>
+		 <li class="li">Buy</li>
+		 <li class="li">Rent</li>
+	 </ul>
+	 <p class="p"><strong class="strong">Amenities:</strong></p>
+	 <ul class="ul">
+		 <li class="li"><strong class="strong">Parking:</strong> Check the box to filter properties that include parking amenities.</li>
+		 <li class="li"><strong class="strong">Furnished:</strong> Check the box to filter furnished properties.</li>
+		 <li class="li"><strong class="strong">Offer:</strong> Check the box to filter properties with active offers.</li>
+	 </ul>
+	 <p class="p"><strong class="strong">Sort:</strong> Choose the sorting order of the listings using the dropdown menu. Options include:</p>
+	 <ul class="ul">
+		 <li class="li">Price high to low</li>
+		 <li class="li">Price low to high</li>
+		 <li class="li">Latest</li>
+		 <li class="li">Oldest</li>
+	 </ul>
+	 <p class="p"><strong class="strong">Investment Type:</strong> Select the investment type from the dropdown menu. Options include:</p>
+	 <ul class="ul">
+		 <li class="li">Payment Plan</li>
+		 <li class="li">Handover</li>
+		 <li class="li">Ready</li>
+		 <li class="li">All</li>
+	 </ul>
+
+	 <div class="video-container" >
+		 <iframe allowfullscreen src="https://res.cloudinary.com/dh1lgpmm4/video/upload/v1704051963/Search_Page_-_Made_with_Clipchamp_fnnrmd.mp4" frameborder="0"></iframe>
+	 </div>
+
+	 <li class="li"><strong class="strong">Performing the Search</strong></li>
+	 <p class="p">After adjusting the filters based on your preferences, click the "Search" button to initiate the search.</p>
+
+	 <li class="li"><strong class="strong">Viewing Results</strong></li>
+	 <p class="p">The page will display real estate listings that match the specified criteria.</p>
+
+	 <li class="li"><strong class="strong">Pagination</strong></li>
+	 <p class="p">If the number of listings exceeds the initial display, a "Show more" button will appear at the bottom of the results. Click this button to load additional listings.</p>
+
+	 <li class="li"><strong class="strong">Developer Page</strong></li>
+	 <p class="p">To view properties listed by developers, click the "Developer" link in the navigation. This will redirect you to the Real Estate Developer page.</p>
+
+	 <li class="li"><strong class="strong">Navigation</strong></li>
+	 <p class="p">Utilize the navigation links to switch between various sections of your real estate application.</p>
+ </ol>
+
+ <p class="p">By following these steps, users can effectively search and explore real estate listings tailored to their preferences using the Search Properties page.</p>
 
 
-<h1>Search Documentation</h1>
 
-
-<h2>Search Properties</h2>
-
-<p>The Search Properties page allows users to easily search and filter real estate listings based on specific criteria. Follow the steps below to effectively use this page:</p>
-
-<ol>
-	<li><strong>Accessing the Page</strong></li>
-	<p>Navigate to the Search Properties page from your application. The page can typically be accessed via a designated route, such as <code>/search</code>.</p>
-
-	<li><strong>Sidebar Filters</strong></li>
-	<p><strong>Search Term:</strong> Enter a search term in the designated field to search for properties based on keywords.</p>
-	<p><strong>Type:</strong> Choose the type of property you are interested in by selecting one of the following options:</p>
-	<ul>
-		<li>All</li>
-		<li>Sale</li>
-		<li>Buy</li>
-		<li>Rent</li>
-	</ul>
-	<p><strong>Amenities:</strong></p>
-	<ul>
-		<li><strong>Parking:</strong> Check the box to filter properties that include parking amenities.</li>
-		<li><strong>Furnished:</strong> Check the box to filter furnished properties.</li>
-		<li><strong>Offer:</strong> Check the box to filter properties with active offers.</li>
-	</ul>
-	<p><strong>Sort:</strong> Choose the sorting order of the listings using the dropdown menu. Options include:</p>
-	<ul>
-		<li>Price high to low</li>
-		<li>Price low to high</li>
-		<li>Latest</li>
-		<li>Oldest</li>
-	</ul>
-	<p><strong>Investment Type:</strong> Select the investment type from the dropdown menu. Options include:</p>
-	<ul>
-		<li>Payment Plan</li>
-		<li>Handover</li>
-		<li>Ready</li>
-		<li>All</li>
-	</ul>
-
-	<div class="video-container" >
-		<iframe allowfullscreen src="https://res.cloudinary.com/dh1lgpmm4/video/upload/v1704051963/Search_Page_-_Made_with_Clipchamp_fnnrmd.mp4" frameborder="0"></iframe>
-	</div>
-
-	<li><strong>Performing the Search</strong></li>
-	<p>After adjusting the filters based on your preferences, click the "Search" button to initiate the search.</p>
-
-	<li><strong>Viewing Results</strong></li>
-	<p>The page will display real estate listings that match the specified criteria.</p>
-
-	<li><strong>Pagination</strong></li>
-	<p>If the number of listings exceeds the initial display, a "Show more" button will appear at the bottom of the results. Click this button to load additional listings.</p>
-
-	<li><strong>Developer Page</strong></li>
-	<p>To view properties listed by developers, click the "Developer" link in the navigation. This will redirect you to the Real Estate Developer page.</p>
-
-	<li><strong>Navigation</strong></li>
-	<p>Utilize the navigation links to switch between various sections of your real estate application.</p>
-</ol>
-
-<p>By following these steps, users can effectively search and explore real estate listings tailored to their preferences using the Search Properties page.</p>
 
 
 </body></html>

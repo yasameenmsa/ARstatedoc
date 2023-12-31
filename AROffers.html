@@ -28,14 +28,29 @@
             display: none; 
 }
 </style></head><body>
-	<div class="overflow">
+	<!-- <div class="overflow"> -->
 	<!-- <div class="global"><div class="cursor"><div class="cursor__dot1"></div>
 	<div class="cursor__dot2"><p class="cursor__text">DRAG</p></div></div><div id="top" class="html w-embed"> -->
 		<style>
-@media only screen and (min-width: 2000px) {
-     body {font-size: 20px;}
-}
+        @media only screen and (min-width: 1200px) {
+            body {
+                font-size: 18px;
+            }
+        }
 
+        /* Medium screens */
+        @media only screen and (max-width: 1199px) {
+            body {
+                font-size: 16px;
+            }
+        }
+
+        /* Small screens */
+        @media only screen and (max-width: 767px) {
+            body {
+                font-size: 14px;
+            }
+        }
 .trigger__circle, .cursor, .slider__wave {
 	pointer-events: none;
 }
@@ -59,14 +74,6 @@ body:hover .cursor {
 
 }
 
-/* 
-
-body {
-		  font-family: 'Arial', sans-serif;
-		  line-height: 1.6;
-		  margin: 20px;
-	  }
- */
 	  h1, h2 ,h3  {
 		  color: #643c1c;
 		  padding:10px;
